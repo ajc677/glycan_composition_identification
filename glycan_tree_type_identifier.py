@@ -206,7 +206,7 @@ def check_type(WURCS: str):
     # If there is a fucose, it is counted as a branch, but the main chain might still be too short to be classified
     if len(branches) == 2:
         for branch in branches:
-            if branch == ["FUC"]:
+            if branch == ["FUC"] or branch == ["FUL"]:
                 return "Unsuitable core glycan"
 
     if branches == 'Branch error':
