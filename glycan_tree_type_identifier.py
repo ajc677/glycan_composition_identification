@@ -26,7 +26,9 @@ database = {
  "a2112h-1b_1-5_2*NCC/3=O": "NGA",
  "a2112h-1a_1-5_2*NCC/3=O": "A2G",
  "a1122h-1a_1-5_2*NCC/3=O": "BM3",
- "a1122h-1b_1-5_2*NCC/3=O": "BM7"
+ "a1122h-1b_1-5_2*NCC/3=O": "BM7",
+ "Aad21122h-2a_2-6_5*NCC/3=O": "SIA",
+ "Aad21122h-2b_2-6_5*NCC/3=O":"SLB"
  }
 
 def get_unique_sugars(WURCS: str):
